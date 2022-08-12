@@ -1,2 +1,2 @@
 # chip8
-Chip8 emulator
+Chip8 emulator = test
