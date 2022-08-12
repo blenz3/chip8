@@ -1,3 +1,6 @@
+empty-proj 
+==========
+
 A simple C/C++ project scaffold. Uses CMake to allow new C and C++ projects to be easily integrated.
 
 Comes built-in with support for:
@@ -79,15 +82,15 @@ For the CMake module:
 ```
  ProjTools.cmake
  ---------------
-
+ 
  CMake module that is meant as a single include in your op level
  CMakeLists.txt.
-
+ 
  Before including this module, the following efinitions need to
  be in place in your main CMakeLists.txt file.
-
+ 
  Project structure:
-
+ 
  + project
  |
  |- CMakeLists.txt
@@ -99,9 +102,9 @@ For the CMake module:
  |...
  |+ unittest (Unittest header available for writing nittests)
  |
-
+ 
  Sample CMakeLists.txt file:
-
+ 
 # CMakeLists.txt
 # # -- This cmake file works only wth CMake >= 3.0
 # cmake_minimum_required(VERSION 3.0)
@@ -147,4 +150,4 @@ For the CMake module:
 # create_test()                      # add the target to the test list
 ```
 
-[Hunter](http://github.com/ruslo/hunter) can also be used along with ```ProjTools.cmake``` to allow for better 3rd party build management.
+Hunter(http://github.com/ruslo/hunter) can also be used along with ```ProjTools.cmake``` to allow for better 3rd party build management.
